@@ -64,6 +64,9 @@ nav li{
 
 .layover{
     background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    border-radius: 2em;
+    overflow: hidden;
     width: 100%;
     height: 100%;
 }
@@ -94,6 +97,7 @@ nav li{
 .section2 .column{
     float: left;
     margin: 15px 0;
+    position: relative;
 }
 
 .section2 .column.side{
@@ -118,13 +122,16 @@ nav li{
 }
 
 /* Section 2 columns */
+
+.column .layover{
+    height: 20em;
+}
+
 .column img{
     height: 20em;
     width: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 2em;
-    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .column h3{
