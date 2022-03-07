@@ -11,6 +11,12 @@
     clear: both;
 }
 
+/* Common */
+html{
+    font-size: 62.5%;
+    font-family:'Montserrat', sans-serif;
+}
+
 /* Container */
 .container{
     width: 80%;
@@ -18,9 +24,22 @@
 }
 
 /* Header */
-header{ 
-    height: 100px;
-    background-color: #e579e6;
+
+.logo{
+    height: 8em;
+    border-right:2px solid lightgray;
+    padding: 1em;
+    object-fit:cover;
+}
+
+nav li{
+    display: inline-block;
+    color: lightgray;
+    list-style: none;
+    font-size: 2em;
+    padding: .5em .5em;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 /* Main */
