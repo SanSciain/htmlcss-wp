@@ -27,14 +27,14 @@ html{
 
 .logo{
     height: 8em;
-    border-right:2px solid lightgray;
+    border-right:2px solid #a5a5a5;
     padding: 1em;
     object-fit:cover;
 }
 
 nav li{
     display: inline-block;
-    color: lightgray;
+    color: #a5a5a5;
     list-style: none;
     font-size: 2em;
     padding: .5em .5em;
@@ -114,14 +114,39 @@ nav li{
 .header > h2{
     font-size: 1.5em;
     font-weight: 300;
+    color: #a5a5a5;
+}
+
+/* Section 2 columns */
+.column img{
+    height: 20em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.column h3{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.column p{
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #a5a5a5;
 }
 
 /* Footer */
-footer{
-    height: 50px;
-    background-color: #8801fe;
+footer h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
 }
 
-.column img{
-    height: 10em;
+footer span{
+    color: red;
+    margin-left: .4em;
 }
+
